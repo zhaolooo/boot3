@@ -4,12 +4,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HellloController {
+public class HelloController {
 
     @RequestMapping("index")
     public String index(){
-        return  "Hello Controller";
-     //我修改过的
-     //在服务器端上改的
+
+        return "Hello controller";
     }
 }
